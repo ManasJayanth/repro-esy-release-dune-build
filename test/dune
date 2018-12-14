@@ -1,0 +1,3 @@
+(executable (name TestEsyReleaseDuneBuild)
+    (public_name TestEsyReleaseDuneBuild.exe)
+    (libraries esy-release-dune-build.lib))

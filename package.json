@@ -1,0 +1,26 @@
+{
+  "name": "esy-release-dune-build",
+  "version": "0.0.0",
+  "description": "My Project",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildsInSource": "_build",
+    "release": {
+      "releasedBinaries": [
+        "EsyReleaseDuneBuildApp.exe"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "esy x TestEsyReleaseDuneBuild.exe"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "refmterr": "*",
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "@esy-ocaml/merlin": "*"
+  }
+}
