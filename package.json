@@ -6,8 +6,11 @@
     "build": "dune build -p #{self.name}",
     "buildsInSource": "_build",
     "release": {
-      "releasedBinaries": [
+      "bin": [
         "EsyReleaseDuneBuildApp.exe"
+      ],
+      "includePackages": [
+        "root"
       ]
     }
   },
