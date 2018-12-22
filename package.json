@@ -10,7 +10,7 @@
         "EsyReleaseDuneBuildApp.exe"
       ],
       "includePackages": [
-        "root"
+        "*"
       ]
     }
   },
