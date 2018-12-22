@@ -8,9 +8,6 @@
     "release": {
       "bin": [
         "EsyReleaseDuneBuildApp.exe"
-      ],
-      "includePackages": [
-        "root"
       ]
     }
   },
