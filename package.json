@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "My Project",
   "esy": {
+    "install": [
+      [ "cp", "#{self.root / '_build' / 'default' / 'executable' / 'EsyReleaseDuneBuildApp.exe'}",  "#{self.bin /  'EsyReleaseDuneBuildApp.exe'}" ]
+    ],
     "build": "dune build -p #{self.name}",
     "buildsInSource": "_build",
     "release": {
